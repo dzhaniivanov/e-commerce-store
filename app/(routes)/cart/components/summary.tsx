@@ -36,6 +36,8 @@ const Summary = () => {
         productsIds: items.map(item => item.id)
       }
     );
+    console.log(response);
+    
     window.location = response.data.url;
   };
 
